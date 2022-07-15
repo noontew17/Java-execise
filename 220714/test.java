@@ -1,5 +1,5 @@
 
-class test{
+class Test{
 	
 public static void main(String[] args){
 	
@@ -55,11 +55,7 @@ public static void main(String[] args){
 	else if (isRaining == false & happy == false){
 		System.out.println("it is raining and we're not happy ");
 	}
-/* 	else if (isRaining =1 and 
-it is raining and we're happy 
-b. it is raining and we're not happy 
-c. it is not raining and we're happy 
-d. it is not raining and we're not happy */
+
  }
 
 
