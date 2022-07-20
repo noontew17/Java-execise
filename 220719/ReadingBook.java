@@ -40,10 +40,10 @@ class Books{
 	}
 	
 	// Step 1.4 getBookDetails
-/* 	 public  String[] getBookDetails(){
+	 public  String getBookDetails(){
   
-        return (this.bookName, this.author, this.bookPrice); */
-    /* } */
+        return this.bookName + this.author + this.bookPrice;
+    }
 /* 	public String getBookDetails(){
 		
 		getBookName();
@@ -95,7 +95,12 @@ class ReadingBook{
 			System.out.println(b.getBookPrice());
 		}
 		
+		System.out.println("================");
 		
+		
+		for (Books b: books){
+			System.out.println(b.getBookDetails());
+		}
 		
 		
 	
