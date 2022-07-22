@@ -44,14 +44,7 @@ class Books{
   
         return this.bookName + this.author + this.bookPrice;
     }
-/* 	public String getBookDetails(){
-		
-		getBookName();
-		getAuthor();
-		getBookPrice();
-		
- 		return {this.bookName, this.author, this.bookPrice}; 
-	} */
+
 }
 
 class ReadingBook{
